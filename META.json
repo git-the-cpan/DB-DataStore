@@ -16,6 +16,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
+            "Module::Build" : "0",
             "Test::More" : "0"
          }
       },
@@ -26,16 +27,14 @@
       },
       "runtime" : {
          "requires" : {
-            "Module::Build" : "0",
-            "Test::More" : "0",
-            "perl" : "v5.12.0"
+            "perl" : "v5.9.4"
          }
       }
    },
    "provides" : {
       "DB::DataStore" : {
          "file" : "lib/DB/DataStore.pm",
-         "version" : "1.01"
+         "version" : "1.02"
       },
       "DB::DataStore::FixedRecycleStore" : {
          "file" : "lib/DB/DataStore.pm"
@@ -50,5 +49,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.01"
+   "version" : "1.02"
 }
