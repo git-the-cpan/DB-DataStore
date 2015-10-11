@@ -35,7 +35,7 @@
    "provides" : {
       "DB::DataStore" : {
          "file" : "lib/DB/DataStore.pm",
-         "version" : "1.0"
+         "version" : "1.01"
       },
       "DB::DataStore::FixedRecycleStore" : {
          "file" : "lib/DB/DataStore.pm"
@@ -50,5 +50,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.0"
+   "version" : "1.01"
 }

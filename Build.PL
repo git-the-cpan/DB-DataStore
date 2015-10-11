@@ -4,6 +4,7 @@ use Module::Build;
 
 
 my $builder = Module::Build->new(
+    add_to_cleanup      => [ 'DB-DataStore-*' ],
     build_requires => {
         'Test::More' => 0,
     },
